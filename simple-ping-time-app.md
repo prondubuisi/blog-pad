@@ -10,7 +10,16 @@ Your approach to determining the speed of your application is measuring the ping
 
 ## Solution
 
-![server-rendered-ping-suggestion](https://user-images.githubusercontent.com/22311928/173590558-63cbc74b-74a9-4c0a-a545-db06df543edb.png)
+Our Ping time app measures the time interval of a request round trip. To calculate the request time interval, we will: 
+
+* Make a client request to the server, keeping track of the request initiation time.
+
+* Return a "Hello" response to the client once the server receives and processes the request. 
+
+* Subtract the request initiation time from the current time in the client.
+
+* Display the time difference as our Ping time. 
+
 
 We need a component and a view to build our Ping time application. Laravel Livewire allows us to create both with one command.
 
