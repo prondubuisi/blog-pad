@@ -180,7 +180,7 @@ Let's solve this by ensuring we only get the time difference when `$echoRequestT
 
 ![fixed ping](https://user-images.githubusercontent.com/22311928/173647182-6fe2f0cf-eb4b-4c8a-8df8-fd2dc72ff2c6.gif)
 
-Yay! We built it a working Ping time app. 
+Yay! We built a working Ping time app. 
 
 
 ## Discussion
