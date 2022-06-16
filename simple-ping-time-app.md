@@ -155,7 +155,7 @@ class PingTime extends Component
 
 ![Poll on click](https://user-images.githubusercontent.com/22311928/173636760-30d7bdf9-c81a-4170-a503-efc6dba9e21d.gif) 
 
-On click, the toggle button toggles the value of `$showDiv` between `true` and `false`; this controls the visibility of the polling `div`.  
+On click, the toggle button toggles the value of `$showDiv` between `true` and `false`; this controls the visibility of the polling `div`.  It is worthy of note that once our `div` is hidden, it does not poll in the background.   
 
 
 The ping app displays an initial time difference that is quite large. This is because on page load  `$echoRequestTime = 0`. Our expression `floor(microtime(true) * 1000)` for getting the current time in milliseconds counts from 0:00:00 January 1,1970 GMT, hence the large time difference. 
