@@ -195,5 +195,5 @@ Yay! We built a working Ping time app.
 
 ## Discussion
 
-Livewire builds on top of the Laravel developer productivity mantra to bring abstractions that make frontend development easy for Laravel artisans. The Ping time app looked initially complex, but Livewire features like polling and magic actions made our solution simple. 
+Livewire builds on the Laravel developer productivity mantra to bring abstractions that make frontend development easy for Web artisans. The Ping time app looked initially complex, but Livewire features like polling and magic actions made our solution simple. 
 
